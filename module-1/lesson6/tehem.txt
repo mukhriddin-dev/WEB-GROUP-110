@@ -1,0 +1,3 @@
+display => flex
+justify-content => space-evenly , space-between , space-around => x 
+align-items => stretch flex-start , flex-end ,  center => y

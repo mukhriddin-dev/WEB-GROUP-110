@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0px 1px 16px silver;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+.nav .nav__ul {
+  display: flex;
+  justify-content: space-between;
+  width: 84%;
+  list-style-type: none;
+}
+
+.nav .nav__ul .nav__li {
+  list-style-type: none;
+}
+
+.nav .nav__ul .nav__li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.nav .nav__ul .nav__li a:hover {
+  color: rgb(0, 145, 203);
+}
+
+main {
+  height: 700px;
+  background-color: aqua;
+  background-image: url("https://picsum.photos/id/211/800/450");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.intro {
+  height: 860px;
+}
+
+.text {
+  background-image: url("https://picsum.photos/id/211/800/450");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 60px;
+}
+
+.text p {
+  background-color: #fff;
+  padding: 80px;
+}

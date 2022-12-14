@@ -1,0 +1,29 @@
+- margin , padding 
+- border 
+- Box-model
+
+- RGB , HEX 
+
+- Bo’lim tag lari `(header, main, section, article, aside, footer….)
+
+- Container
+
+
+- margin => top , left , right , bottom
+- padding top , left , right , bottom
+- border, border-radius , border-style , border-width,  top , left , right , bottom 
+- box-sizing => content-box , border-box;
+- float => left , right
+
+
+
+  /* margin-top: 120px;
+  margin-left: 300px;
+  margin-bottom: 100px;
+  margin-right: 200px; */
+
+
+    /* padding-left: 150px;
+  padding-top: 90px;
+  padding-bottom: 500px;
+  padding-right: 200px; */

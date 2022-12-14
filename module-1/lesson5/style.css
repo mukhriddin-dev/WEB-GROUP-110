@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{ 
+  margin: 0 auto;
+  width:1440px;
+  padding: 0 20px;
+}
+
+header {
+  background-color: coral;
+  padding: 40px;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: chocolate;
+  padding: 20px;
+}
+
+li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+main {
+  background-color: skyblue;
+  height: 860px;
+}
+
+footer {
+  background-color: darkblue;
+  padding: 20px;
+  text-align: center;
+  color:#fff;
+  font-size: 24px;
+}
+
+
+
+#intro{
+  width: 65%;
+  float: left;
+  background-color: silver;
+  height: 100%;
+}
+
+#intro > section {
+height: 420px;
+background-color: yellowgreen;
+margin: 6px;
+padding: 70px;
+}
+
+#intro > article {
+  height: 420px;
+  background-color: deeppink;
+  margin: 6px;
+  padding: 70px;
+}
+
+aside{
+  height: 848px;
+  background-color: lime;
+  margin: 6px;
+  padding: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box {
+  width: 400px;
+  height: 400px;
+  border: solid 10px rgb(220, 20, 60);
+  border-radius: 5px;
+  padding: 20px 40px 30px 100px;
+  margin: 30px auto;
+  background-color: rgba(255, 218, 11, 0.575);
+}
+
+.cover {
+  border-radius: 40px;
+  border: 9px solid rgb(255, 165, 0);
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: #0000;
+}
+
+/* RGB a => red = 255 , green =>  255 , blue => 255 */
+/* HEX =>  #0000 , #3333 , #fb6b #fbdc */
+/* name => red , green, yellow */
+
+/* a= alpha */

@@ -1,0 +1,17 @@
+#month1 #lesson-10
+
+#Position => property 
+
+static => by default 
+relative => o'z o'ringa ega holatga olib keladi. top , left , right , bottom 
+absolute => o'z o'ringa ega holatga olib keladi. va parent elementga eng yaqin holatda joylashishga yordam beradi. Qachonki parent elementni positione hususiyati relative bo'lsa.
+sticky => elementni viewportga nisbatan joylashtiradi (scroll holatda).
+fixed => absolute+sticky
+
+#value => static  , relative , absolute , sticky , fixed 
+#scroll-behavior => smooth,
+#max-width , min-width , max-height , min-height ,
+#ovverflow=> scroll , hidden , visible 
+
+#size = > px , rem , em , vh , vw , % ;
+

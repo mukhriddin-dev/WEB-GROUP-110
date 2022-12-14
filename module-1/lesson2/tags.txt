@@ -1,0 +1,10 @@
+// b => bold 
+// hr => horizontal role
+// img => rasm
+// br => break line
+// i => italic
+// u => underline
+// ol => orderd list => li 
+// ul => under list => li
+// blockquote => blockquote 
+// strong =>  kuchli => 

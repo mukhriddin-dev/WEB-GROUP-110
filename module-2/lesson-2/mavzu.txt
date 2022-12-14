@@ -1,0 +1,6 @@
+1. Gridni takrorlash
+2. normalize css
+2. pseudo elementlar
+2. BEM =>  Block , ELEMENT , MODIFIER
+3. Dropdown menu , custom checkbox
+4. table 

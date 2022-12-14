@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.active {
+  color: #ee5514 !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* -==--------------- NAVBAR  START  - ----------------------- */
+
+header {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.nav .nav__left {
+  display: flex;
+  width: 45%;
+}
+
+.nav .nav__left .nav__left--list {
+  display: flex;
+  width: 80%;
+}
+
+.nav .nav__left .nav__left--list ul {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav .nav__left .nav__left--list ul li a {
+  color: #1a0a03;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav .nav__btn {
+  width: 137px;
+  height: 59px;
+  background-color: #ee5514;
+  border-radius: 5px;
+  border: none;
+}
+
+/* -==--------------- NAVBAR  END - ----------------------- */
+
+/* ========  intro start    */
+.intro {
+  background: rgb(255, 162, 48);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 162, 48, 0.7875525210084033) 0%,
+    rgba(255, 181, 107, 0.5214460784313726) 23%,
+    rgba(255, 255, 255, 1) 58%
+  );
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.wrapper__text {
+  width: 30%;
+  padding-top: 70px;
+}
+
+.wrapper__text h1 {
+  font-size: 61px;
+  line-height: 120%;
+  font-family: "Source Serif Pro", serif;
+}
+
+.wrapper__text p {
+  color: #1a0a03;
+  line-height: 160%;
+}
+
+.yellow {
+  color: #ee5514;
+}
+
+.wrapper__box {
+  width: 394px;
+  height: 400px;
+  border: 11px solid #ff9669;
+  margin-top: 25px;
+  margin-right: 120px;
+}
+
+.wrapper__box img {
+  display: block;
+  margin-left: -130px;
+}
+
+.count_down {
+  width: 792px;
+  height: 125px;
+  padding: 30px 55px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 14px rgba(26, 10, 3, 0.05);
+border-radius: 5px;
+}
+
+.count_down .counter{
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+}
+
+.count_down .counter li{
+   /* background-color: red; */
+   padding: 0px 45px;
+   height: 45px;
+   border-right: 2px solid #ff9669;
+}
+
+.count_down .counter li:nth-child(4){
+   border:none;
+}
+
+.count_down .counter li:last-child
+{
+   padding: 10px 0 ;
+   border:none;
+   
+}
+
+
+.count_down .counter li:last-child button
+{
+   padding: 20px 0 ;
+   border:none;
+   width: 137px;
+   height: 59px;
+   background-color: #ee5514;
+   border-radius: 5px;
+   border: none;
+   margin-top: -17px;
+   
+}
+
+/*  intro end */

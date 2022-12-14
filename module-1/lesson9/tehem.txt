@@ -1,0 +1,34 @@
+1. form
+2. input
+3. label
+4. fildset
+5. legend
+6. textarea
+7. select
+8. option
+
+
+
+attribute
+
+1. for => 
+2. name => 
+3. value =>
+4. placeholder =>
+5. type => text, password , email , date , number , img , file  , color ,  . .. 
+6. id=>
+7. aria-label => 
+8. selected =>
+9. disabled =>
+10. required =>
+11. readonly =>
+12. cols , rows =>
+13. action =>
+14. method =>
+15. step =>
+16. max-length ,  min-length =>
+17. max , min =>
+
+
+
+PSEUDO CLASSES => HOVER , ACTIVE , FOCUS 

@@ -1,0 +1,57 @@
+/* background: => background-color: 
+    text: => 
+    text-align => left center end justify
+    text-transform => uppercase, lowercase , capitalize
+    text-decoration => color style underline , overline, line-through
+
+   /* text-decoration-color: crimson;
+   text-decoration-style: wavy;
+   text-decoration-line: line-through underline overline; */
+
+.text {
+  background-color: seagreen;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: solid underline crimson;
+  text-indent: 0px;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  word-spacing: 0px;
+  letter-spacing: 20px;
+  line-height: 80px;
+}
+
+.description {
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.card {
+  width: 340px;
+  background-color: silver;
+  display: inline-block;
+}
+
+span {
+  width: 340px;
+  display: inline-block;
+}
+
+
+.box{
+   width: 350px;
+   height: 354px;
+   background-color: rgb(234, 234, 234);
+   padding: 30px;
+   border-radius: 20px;
+   display: inline-block;
+   margin: 36px;
+}
+
+.box-desc{
+   color:#7D7987;
+}

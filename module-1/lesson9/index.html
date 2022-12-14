@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <title>Puma</title>
+   <!-- google fonts -->
+   <!-- main css -->
+   <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+
+
+   <div class="container">
+
+      <div class="box">
+
+         <fieldset>
+
+            <legend>
+               User registration form
+            </legend>
+
+            <form action="https://echo.htmlacademy.ru/" method="post">
+
+               <label for="username" class="label">
+                  <p>Enter username</p>
+                  <input name="username" type="text" id="username" placeholder="Enter your username" minlength="3"
+                     maxlength="25" required aria-label="Enter your username">
+               </label>
+
+
+               <label for="lastname" class="label">
+                  <p>Enter lastname</p>
+                  <input name="lastname" type="text" id="lastname" placeholder="Enter your lastname" minlength="3"
+                     maxlength="25" required>
+               </label>
+
+               <label for="email" class="label">
+                  <p>Enter email addres</p>
+                  <input name="email" type="email" id="email" placeholder="Enter your email addres">
+               </label>
+
+               <label for="tel" class="label">
+                  <p>Enter Phone number</p>
+                  <input name="tel" type="number" id="tel" placeholder="Enter Phone number" minlength="9" maxlength="13"
+                     required>
+               </label>
+
+
+               <label for="gender" class="label">
+                  <input type="radio" id="male" name="gen">
+                  <strong>Male</strong>
+                  <input type="radio" id="female" name="gen">
+                  <strong>Female</strong>
+               </label>
+
+
+               <label for="date" class="label">
+                  <p>Date of birth</p>
+                  <input name="date" type="date" id="date" placeholder="Date of birth">
+               </label>
+
+
+
+               <textarea name="addres" id="addres" cols="52" rows="10">
+
+           </textarea>
+
+
+               <select name="qual" id="qual">
+                  <option value="1" selected disabled>Select Qualification</option>
+                  <option value="2">Select Qualification 1</option>
+                  <option value="3">Select Qualification 2</option>
+                  <option value="4">Select Qualification 3</option>
+                  <option value="5">Select Qualification 4</option>
+               </select>
+
+               <p>Specializtion</p>
+               <label for="spec" class="check">
+                  <input name="spec" type="checkbox" class="radio"> <span>Information technology</span>
+               </label>
+               <label for="spec" class="check">
+                  <input name="spec" type="checkbox" class="radio"> <span>Information technology</span>
+               </label>
+               <label for="spec" class="check">
+                  <input name="spec" type="checkbox" class="radio"> <span>Information technology</span>
+               </label>
+               </label>
+
+               <input type="reset" value="reset">
+
+               <button class="btn-success" type="submit">Registered</button>
+
+
+            </form>
+
+         </fieldset>
+
+      </div>
+
+
+
+      <form class="form">
+
+
+         <input type="color" name="color" id="color" style="padding:10px ;">
+
+         <input type="file">
+
+         <input type="datetime" name="datetime" id="">
+
+         <input type="month" name="month" id="">
+
+         <input type="password" name="password" id="">
+
+         <input type="week" name="week" id="">
+
+         <input type="range" name="rating" id="rating" value="100" max="100" min="60" step="5">
+
+         <input type="search">
+
+
+
+
+
+      </form>
+
+
+
+   </div>
+
+
+
+
+
+
+</body>
+
+</html>

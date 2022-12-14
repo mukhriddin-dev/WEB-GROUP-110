@@ -1,0 +1,15 @@
+property => xususiyat
+value => qiymat
+a => link => attribute => href (hyper reference) target="_blank" ynagi tabda ochadi.
+button => tugma
+
+
+stle attributeda stillarni yozish => CSS inline usuli deyiladi.
+
+   selector (tag name, .class, #id) {
+
+            property1: value1,
+            property2: value2,
+            property3: value3,
+            property4 . . .: value4 . . .,
+      }

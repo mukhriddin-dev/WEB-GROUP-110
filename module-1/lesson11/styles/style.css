@@ -1,0 +1,21 @@
+body{
+   background-image: url("https://picsum.photos/id/12/800/600");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+h1{
+   font-size: 150px;
+   text-align: center;
+   text-transform: uppercase;
+   -webkit-text-fill-color: rgba(255, 255, 255, 0);
+   -webkit-text-stroke-width: 9px;
+   -webkit-text-stroke-color: green;
+   box-sizing:border-box;
+   display: flex;
+   transform: tranlsteX(120px);
+   -webkit-transform: tranlsteX(120px);
+   -moz-transform: tranlsteX(120px);
+   -ms-transform: tranlsteX(120px);
+   -o-transform: tranlsteX(120px);
+}
