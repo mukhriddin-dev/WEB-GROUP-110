@@ -1,73 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>lesson-2</title>
+  </head>
 
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- normalize css -->
-   <link rel="stylesheet" href="./styles/normalize.css">
-   <!-- main css file -->
-   <link rel="stylesheet" href="./styles/styles.css">
-   <title>lesson-2</title>
-</head>
-
-<body>
-   <header>
+  <body>
+    <header>
       <div class="container">
-         <nav class="nav">
-            <h2 class="nav__logo">
-               LOGO.UZ
-            </h2>
-            <ul class="nav__ul">
-               <li class="nav__ul--list"><a href="#" class="nav__ul---list-item">Home</a></li>
-               <li class="nav__ul--list"><a href="#" class="nav__ul--list-item">About</a></li>
-               <li class="nav__ul--list"><a href="#" class="nav__ul--list-item">Contact</a></li>
+        <nav class="nav">
+          <h2 class="nav__logo">LOGO.UZ</h2>
+          <ul class="nav__ul">
+            <li class="nav__ul--list">
+              <a href="#" class="nav__ul---list-item">Home</a>
+            </li>
+            <li class="nav__ul--list">
+              <a href="#" class="nav__ul--list-item">About</a>
+            </li>
+            <li class="nav__ul--list">
+              <a href="#" class="nav__ul--list-item">Contact</a>
+            </li>
 
+            <li class="nav__ul--list dropdown">
+              <a href="#" class="nav__ul--list-item">Service</a>
 
-               <li class="nav__ul--list dropdown">
+              <ul class="dropdown-menu">
+                <li class="item"><a href="#" class="link">Telegram</a></li>
+                <li class="item"><a href="#" class="link">Instagram</a></li>
+                <li class="item"><a href="#" class="link">Facebook</a></li>
+                <li class="item"><a href="#" class="link">Twitter</a></li>
+              </ul>
+            </li>
 
-                  <a href="#" class="nav__ul--list-item">Service</a>
-
-                  <ul class="dropdown-menu">
-                     <li class="item"><a href="#" class="link">Telegram</a></li>
-                     <li class="item"><a href="#" class="link">Instagram</a></li>
-                     <li class="item"><a href="#" class="link">Facebook</a></li>
-                     <li class="item"><a href="#" class="link">Twitter</a></li>
-                  </ul>
-
-               </li>
-
-
-
-               <li class="nav__ul--list"><a href="#" class="nav__ul--list-item">FAQ</a></li>
-            </ul>
-         </nav>
+            <li class="nav__ul--list">
+              <a href="#" class="nav__ul--list-item">FAQ</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-   </header>
+    </header>
 
-   <!-- header end -->
+    <!-- header end -->
 
-
-   <main>
+    <main>
+      <!--  tr => table row -->
       <div class="container">
-         <div class="wrapper">
-            <div class="card">
+        <table border="1">
 
-               <input type="checkbox">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Full name</th>
+              <th >Tel:</th>
+              <th>Age</th>
+            </tr>
+          </thead>
 
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Sardor Rahimov</td>
+              <td>+9988877766767</td>
+              <td>21</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>Sardor Rahimov</td>
+               <td>+9988877766767</td>
+               <td>21</td>
+             </tr>
+             <tr>
+               <td>3</td>
+               <td>Sardor Rahimov</td>
+               <td>+9988877766767</td>
+               <td>21</td>
+             </tr>
+             <tr>
+               <td>4</td>
+               <td>Sardor Rahimov</td>
+               <td>+9988877766767</td>
+               <td>21</td>
+             </tr>
+             <tr>
+               <td>2</td>
+               <td>Sardor Rahimov</td>
+               <td>+9988877766767</td>
+               <td>21</td>
+             </tr>
+             <tr>
+               <td>3</td>
+               <td>Sardor Rahimov</td>
+               <td>+9988877766767</td>
+               <td>21</td>
+             </tr>
+             <tr>
+               <td>4</td>
+               <td>Sardor Rahimov</td>
+               <td>+9988877766767</td>
+               <td>21</td>
+             </tr>
+             <tr>
+               <td>2</td>
+               <td>Sardor Rahimov</td>
+               <td>+9988877766767</td>
+               <td>21</td>
+             </tr>
+             <tr>
+               <td>3</td>
+               <td>Sardor Rahimov</td>
+               <td>+9988877766767</td>
+               <td>21</td>
+             </tr>
+             <tr>
+               <td>4</td>
+               <td>Sardor Rahimov</td>
+               <td>+9988877766767</td>
+               <td>21</td>
+             </tr>
+          </tbody>
+        </table>
 
-            </div>
-         </div>
+        <div class="wrapper">
+          <div class="card">
+            <input type="checkbox" />
+          </div>
+        </div>
       </div>
-   </main>
+    </main>
 
-   <footer>
+    <footer>
       <div class="container">
-         <p>2022</p>
+        <p>2022</p>
       </div>
-   </footer>
-
-</body>
-
+    </footer>
+  </body>
 </html>

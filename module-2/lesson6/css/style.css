@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(14, 134, 132);
+}
+header .nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+header .nav__logo {
+  text-transform: uppercase;
+  color: #333D4B;
+  cursor: pointer;
+}
+header .nav__ul {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+}
+header .nav__ul--list {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+header .nav__ul--list-item {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.851);
+}
+header .nav__ul--list-item:hover {
+  color: rgb(24, 24, 24);
+}
+
+.intro {
+  min-height: 500px;
+  background-image: url("https://picsum.photos/id/645/1220/1090");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.intro .wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  background-color: rgba(255, 255, 255, 0.668);
+  backdrop-filter: blur(5px);
+  padding: 100px 30px 80px 30px;
+  column-gap: 12px;
+}
+
+.box, .card {
+  width: 320px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 10px silver;
+}
+
+.card-body {
+  padding: 10px;
+}
+.card-body-title {
+  margin: 12px 5px;
+}
+.card-body-text {
+  color: rgb(47, 47, 47);
+}
+
+.box-body {
+  padding: 10px;
+}
+.box-body-title {
+  margin: 12px 5px;
+}
+.box-body-text {
+  color: rgb(47, 47, 47);
+}
+
+.ads {
+  width: 400px;
+  height: 300px;
+  background-color: green;
+  margin: 10px;
+  display: inline-block;
+}
+
+.banner {
+  width: 600px;
+  height: 400px;
+  background-color: blue;
+  margin: 20px;
+  display: block;
+}

@@ -1,0 +1,16 @@
+.intro {
+   min-height: 500px;
+   background-image: url("https://picsum.photos/id/645/1220/1090");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+
+   .wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      background-color: rgba(255, 255, 255, 0.668);
+      backdrop-filter: blur(5px);
+      padding: 100px 30px 80px 30px;
+      column-gap:12px;
+   }
+}

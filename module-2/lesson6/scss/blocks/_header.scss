@@ -1,0 +1,45 @@
+
+header {
+   width: 100%;
+   background-color: $dark-cyan;
+
+   .nav {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+
+      &__logo {
+         text-transform: uppercase;
+         color: $dark-grey;
+         cursor: pointer;
+      }
+
+      &__ul {
+         display: flex;
+         width: 35%;
+         justify-content: space-between;
+
+         &--list {
+            list-style-type: none;
+            text-transform: uppercase;
+            
+
+            &-item {
+               text-decoration: none;
+               color: rgba(0, 0, 0, 0.851);
+
+
+               &:hover {
+                  color: rgb(24, 24, 24);
+               }
+            
+            }
+         }
+
+      }
+   }
+
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- normalize css -->
+  <link rel="stylesheet" href="./styles/normalize.css" />
+  <!-- main css file -->
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <title>lesson-2</title>
+</head>
+
+<body>
+
+  <header>
+
+    <div class="container ">
+
+      <nav class="nav">
+
+        <h2 class="nav-logo">
+          LOGO
+        </h2>
+
+        <ul class="nav__ul">
+          <li class="nav__ul--list"><a href="#" class="nav__ul--list-item">Home</a></li>
+
+          <li class="nav__ul--list"><a href="#" class="nav__ul--list-item">About </a></li>
+          
+          <li class="nav__ul--list"><a href="#" class="nav__ul--list-item">Service</a></li>
+          <li class="nav__ul--list"><a href="#" class="nav__ul--list-item">Blog</a></li>
+          <li class="nav__ul--list"><a href="#" class="nav__ul--list-item">Contact US</a></li>
+        </ul>
+
+        <div class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <section class="intro">
+      <div class="container">
+
+        <!-- <img src="./images/expresso.png" srcset="./images/expresso.png 1x, ./images/expresso@2x.png 2x" alt="rasm"> -->
+
+        <picture>
+
+          <source media="(max-width:576px)" srcset="https://picsum.photos/id/77/340/340">
+          <source media="(max-width:768px)" srcset="https://picsum.photos/id/177/340/340">
+          <source media="(max-width:834px)" srcset="https://picsum.photos/id/117/340/340">
+          <img src="./images/expresso.png" alt="rasm">
+
+        </picture>
+
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>

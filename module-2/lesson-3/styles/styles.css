@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: yellow;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+
+.nav__ul {
+  display: flex;
+  width: 36%;
+  justify-content: space-between;
+}
+
+.nav__ul .nav__ul--list {
+  text-transform: uppercase;
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+.nav__ul--list::after {
+  content: "";
+  height: 2px;
+  width: 0.001px;
+  background-color: #000;
+  display: block;
+  position: relative;
+  opacity: 1;
+  transition: all 0.3s ease;
+  transform: rotate(0deg);
+}
+
+
+.nav__ul--list:hover::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #000;
+  display: block;
+  position: relative;
+  transform: rotate(-180deg);
+  opacity: 1;
+}
+
+.nav__ul .nav__ul--list .nav__ul--list-item {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  padding-top: 4px;
+  display: none;
+}
+
+.menu span {
+  position: absolute;
+  height: 5px;
+  display: inline-block;
+  background-color: #000;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.menu span:nth-child(1) {
+  top: 6px;
+}
+
+.menu span:nth-child(2) {
+  top: 16px;
+}
+
+.menu span:nth-child(3) {
+  top: 26px;
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  header {
+    background-color: rgb(208, 255, 0);
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+  }
+
+  .nav__ul {
+    display: flex;
+    width: 36%;
+    justify-content: space-between;
+  }
+
+  .nav__ul .nav__ul--list {
+    text-transform: uppercase;
+    list-style-type: none;
+  }
+
+  .nav__ul .nav__ul--list:nth-child(4),
+  .nav__ul .nav__ul--list:nth-child(5) {
+    display: none;
+  }
+
+  .nav__ul .nav__ul--list .nav__ul--list-item {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .menu {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    padding-top: 4px;
+    display: none;
+  }
+
+  .menu span {
+    position: absolute;
+    height: 5px;
+    display: inline-block;
+    background-color: #000;
+    width: 90%;
+    border-radius: 5px;
+  }
+
+  .menu span:nth-child(1) {
+    top: 6px;
+  }
+
+  .menu span:nth-child(2) {
+    top: 16px;
+  }
+
+  .menu span:nth-child(3) {
+    top: 26px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  header {
+    background-color: rgb(255, 0, 204);
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+  }
+
+  .nav__ul {
+    display: none;
+    width: 36%;
+    justify-content: space-between;
+  }
+
+  .nav__ul .nav__ul--list {
+    text-transform: uppercase;
+    list-style-type: none;
+  }
+
+  .nav__ul .nav__ul--list .nav__ul--list-item {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .menu {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    padding-top: 4px;
+    display: block;
+  }
+
+  .menu span {
+    position: absolute;
+    height: 5px;
+    display: inline-block;
+    background-color: #000;
+    width: 90%;
+    border-radius: 5px;
+  }
+
+  .menu span:nth-child(1) {
+    top: 6px;
+  }
+
+  .menu span:nth-child(2) {
+    top: 16px;
+  }
+
+  .menu span:nth-child(3) {
+    top: 26px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  header {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+  }
+
+  .nav-logo {
+    color: #fff;
+  }
+
+  .nav__ul {
+    display: none;
+    width: 36%;
+    justify-content: space-between;
+  }
+
+  .nav__ul .nav__ul--list {
+    text-transform: uppercase;
+    list-style-type: none;
+  }
+
+  .nav__ul .nav__ul--list .nav__ul--list-item {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .menu {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    padding-top: 4px;
+    display: block;
+  }
+
+  .menu span {
+    position: absolute;
+    height: 5px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    border-radius: 5px;
+  }
+
+  .menu span:nth-child(1) {
+    top: 6px;
+  }
+
+  .menu span:nth-child(2) {
+    top: 16px;
+  }
+
+  .menu span:nth-child(3) {
+    top: 26px;
+  }
+}

@@ -1,0 +1,12 @@
+
+body {
+  background-color: #fff;
+}
+
+.slide{
+   transform: translateY(-200%);
+}
+
+.card{
+   transition: all 0.4s ease;
+}

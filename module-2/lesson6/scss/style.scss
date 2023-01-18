@@ -1,0 +1,24 @@
+@import "./general";
+@import "./variables";
+@import "./fonts";
+@import "./blocks/all";
+
+
+
+@mixin dinamicBox($w, $h, $bg, $m, $d) {
+   width: $w;
+   height: $h;
+   background-color: $bg;
+   margin: $m;
+   display: $d;
+}
+
+
+
+.ads {
+   @include dinamicBox(400px, 300px, green, 10px, inline-block)
+}
+
+.banner {
+   @include dinamicBox(600px, 400px, blue, 20px, block)
+}

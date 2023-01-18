@@ -1,0 +1,209 @@
+.intro {
+   width: 100%;
+   height: auto;
+   margin-top: 16px;
+
+   &__wrapper {
+      min-height: 550px;
+      background: #DCE5E2;
+      border-radius: 32px;
+      display: flex;
+      width: 88%;
+
+      &--left {
+         margin: 119px 0 0 56px;
+
+         &-title {
+            font-family: 'Readex Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 52px;
+            line-height: 70px;
+         }
+
+
+         &-text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+         }
+
+
+         &-btn {
+            margin-top: 32px;
+            width: 170px;
+            height: 50px;
+            border: 1px solid #000000;
+            border-radius: 200px;
+            font-weight: bold;
+
+
+            &:hover {
+               background-color: rgb(248, 241, 241);
+            }
+
+            &:active {
+               border: 1px solid rgb(12, 67, 12);
+            }
+         }
+      }
+
+      &--img {
+         order: 2;
+      }
+   }
+}
+
+// 992 or 884
+
+@media only screen and (max-width: 768px) {
+   .intro {
+      width: 100%;
+      height: auto;
+      margin-top: 96px;
+
+
+      &__wrapper {
+         min-height: 580px;
+         background: #DCE5E2;
+         border-radius: 32px;
+         display: flex;
+         flex-direction: column;
+         width: 88%;
+
+         &--left {
+            margin: 9px 0 0 56px;
+            order: 2;
+
+            &-title {
+               font-family: 'Readex Pro';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 42px;
+               line-height: 50px;
+               text-align: center;
+            }
+
+
+            &-text {
+               font-family: 'Inter';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 19px;
+               text-align: center;
+            }
+
+
+            &-btn {
+               margin-top: 32px;
+               width: 170px;
+               height: 50px;
+               border: 1px solid #000000;
+               border-radius: 200px;
+               font-weight: bold;
+               margin: 32px auto;
+               display: block;
+
+
+               &:hover {
+                  background-color: rgb(248, 241, 241);
+               }
+
+               &:active {
+                  border: 1px solid rgb(12, 67, 12);
+               }
+            }
+
+
+
+         }
+
+         &--img {
+            order: 1;
+         }
+      }
+   }
+}
+
+// 576
+
+@media only screen and (max-width: 480px) {
+   .intro {
+      width: 100%;
+      height: auto;
+      margin-top: 96px;
+
+
+      &__wrapper {
+         min-height: 500px;
+         background: #DCE5E2;
+         border-radius: 32px;
+         display: flex;
+         flex-direction: column;
+         width: 90%;
+
+         &--left {
+            margin: 0;
+            order: 2;
+
+            &-title {
+               font-family: 'Readex Pro';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 32px;
+               line-height: 32px;
+               text-align: center;
+            }
+
+
+            &-text {
+               font-family: 'Inter';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 19px;
+               text-align: center;
+            }
+
+
+            &-btn {
+               margin-top: 32px;
+               width: 170px;
+               height: 50px;
+               border: 1px solid #000000;
+               border-radius: 200px;
+               font-weight: bold;
+               margin: 32px auto;
+               display: block;
+
+
+               &:hover {
+                  background-color: rgb(248, 241, 241);
+               }
+
+               &:active {
+                  border: 1px solid rgb(12, 67, 12);
+               }
+            }
+
+
+
+         }
+
+         &--img {
+            order: 1;
+            width: 500px;
+            transform: translate(-93px, -15px);
+            -webkit-transform: translate(-93px, -15px);
+            -moz-transform: translate(-93px, -15px);
+            -ms-transform: translate(-93px, -15px);
+            -o-transform: translate(-93px, -15px);
+         }
+      }
+   }
+}
+
+// 375

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>lesson-9</title>
+   <!-- bootstrap css CDN  -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+
+   <!-- local bootstrap min css file -->
+   <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+   <!-- bs icon css -->
+   <link rel="stylesheet" href="./styles/icon.css">
+   <!-- main css file -->
+   <link rel="stylesheet" href="./styles/style.css" />
+
+</head>
+
+<body>
+   <!-- <nav class="navbar navbar-expand-lg bg-success">
+      <div class="container">
+
+         <a class="navbar-brand" href="#">LOGO</a>
+
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarScroll">
+
+
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                     aria-expanded="false">
+                     Link
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#">Action</a></li>
+                     <li><a class="dropdown-item" href="#">Another action</a></li>
+                     <li>
+                        <hr class="dropdown-divider">
+                     </li>
+                     <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link disabled">Link</a>
+               </li>
+            </ul>
+
+         </div>
+      </div>
+   </nav> -->
+
+
+   <header class="bg-success">
+      <div class="container">
+         <nav class="nav d-flex justify-content-between py-3 align-items-center">
+            <h2 class="nav-logo text-white">LOGO</h2>
+
+            <ul class="nav-ul d-flex w-25 justify-content-between list-unstyled d-none d-lg-flex d-sm-none d-md-none">
+               <li class="nav-ul-list">
+                  <a href="#" class="nav-ul-list-item text-decoration-none text-white">Home</a>
+               </li>
+               <li class="nav-ul-list">
+                  <a href="#" class="nav-ul-list-item text-decoration-none text-white">About</a>
+               </li>
+               <li class="nav-ul-list">
+                  <a href="#" class="nav-ul-list-item text-decoration-none text-white">Service</a>
+               </li>
+               <li class="nav-ul-list">
+                  <a href="#" class="nav-ul-list-item text-decoration-none text-white">Contact</a>
+               </li>
+            </ul>
+
+            <img src="./images/burger.svg" alt="menu" class="menu d-lg-none d-sm-block d-block" />
+         </nav>
+      </div>
+   </header>
+   <!-- header end -->
+   <!-- main content -->
+   <section class="intro">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-8 p-4 bg-light shadow">
+               <!-- carousel  -->
+               <div id="carouselExampleIndicators" class="carousel slide">
+                  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner rounded-3">
+                     <div class="carousel-item active">
+                        <img src="https://picsum.photos/id/345/600/350" class="d-block w-100 rounded-3" alt="..." />
+                     </div>
+                     <div class="carousel-item">
+                        <img src="https://picsum.photos/id/349/600/350" class="d-block w-100 rounded-3" alt="..." />
+                     </div>
+                     <div class="carousel-item">
+                        <img src="https://picsum.photos/id/347/600/350" class="d-block w-100 rounded-3" alt="..." />
+                     </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                     data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                     data-bs-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Next</span>
+                  </button>
+               </div>
+               <!-- carousel  end-->
+            </div>
+
+            <div class="col-lg-4 p-4 bg-light shadow d-sm-none d-none d-md-none d-lg-block">
+               <div class="p-3 bg-success rounded-4 mb-5">
+                  <h4 class="text-center text-white">Paling Populer</h4>
+               </div>
+
+               <div class="card mb-4 shadow" style="max-width: 540px">
+                  <div class="row g-0">
+                     <div class="col-md-4">
+                        <img src="https://picsum.photos/id/341/220/170" class="img-fluid rounded-start" alt="..." />
+                     </div>
+                     <div class="col-md-8">
+                        <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">
+                              <small class="text-muted">Last updated 3 mins ago</small>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="card mb-4 shadow" style="max-width: 540px">
+                  <div class="row g-0">
+                     <div class="col-md-4">
+                        <img src="https://picsum.photos/id/342/220/170" class="img-fluid rounded-start" alt="..." />
+                     </div>
+                     <div class="col-md-8">
+                        <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">
+                              <small class="text-muted">Last updated 3 mins ago</small>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="card mb-4 shadow" style="max-width: 540px">
+                  <div class="row g-0">
+                     <div class="col-md-4">
+                        <img src="https://picsum.photos/id/343/220/170" class="img-fluid rounded-start" alt="..." />
+                     </div>
+                     <div class="col-md-8">
+                        <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">
+                              <small class="text-muted">Last updated 3 mins ago</small>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- intro section end -->
+
+   <!-- news card section start -->
+
+   <section class="news py-5">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-8">
+               <div class="row gy-3">
+                  <div class="col-lg-12 p-2 bg-success rounded-3">
+                     <h3 class="text-white">Postingan Terbaru</h3>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+                     <div class="card">
+                        <img src="https://picsum.photos/id/433/320/180" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                           <p class="text-success">In Label</p>
+                           <h5 class="card-title">Ini Adalah Judul Artikel</h5>
+                           <small>By Ridho Satriawan</small>
+                           <p class="card-text">
+                              Apa itu HTML ? Buat kamu yang pernah membuat sebuah
+                              website pastinya sudah tidak asing lagi dengan yang
+                              namanya HTML. S…
+                           </p>
+
+                           <small class="text-muted"><i class="bi bi-9-square-fill"></i> 22 Agustus 2022 <i class="bi bi-android2"></i></small>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+                     <div class="card">
+                        <img src="https://picsum.photos/id/133/320/180" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                           <p class="text-success">In Label</p>
+                           <h5 class="card-title">Ini Adalah Judul Artikel</h5>
+                           <small>By Ridho Satriawan</small>
+                           <p class="card-text">
+                              Apa itu HTML ? Buat kamu yang pernah membuat sebuah
+                              website pastinya sudah tidak asing lagi dengan yang
+                              namanya HTML. S…
+                           </p>
+
+                           <small class="text-muted"> 22 Agustus 2022 </small>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+                     <div class="card">
+                        <img src="https://picsum.photos/id/413/320/180" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                           <p class="text-success">In Label</p>
+                           <h5 class="card-title">Ini Adalah Judul Artikel</h5>
+                           <small>By Ridho Satriawan</small>
+                           <p class="card-text">
+                              Apa itu HTML ? Buat kamu yang pernah membuat sebuah
+                              website pastinya sudah tidak asing lagi dengan yang
+                              namanya HTML. S…
+                           </p>
+
+                           <small class="text-muted"> 22 Agustus 2022 </small>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+                     <div class="card">
+                        <img src="https://picsum.photos/id/423/320/180" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                           <p class="text-success">In Label</p>
+                           <h5 class="card-title">Ini Adalah Judul Artikel</h5>
+                           <small>By Ridho Satriawan</small>
+                           <p class="card-text">
+                              Apa itu HTML ? Buat kamu yang pernah membuat sebuah
+                              website pastinya sudah tidak asing lagi dengan yang
+                              namanya HTML. S…
+                           </p>
+
+                           <small class="text-muted"> 22 Agustus 2022 </small>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col ms-2 d-none d-md-none d-lg-block">
+               <div class="row">
+                  <div class="col-lg-12 p-2 bg-success rounded-3">
+                     <h3 class="text-white">Category</h3>
+                  </div>
+                  <div class="col py-3">
+
+                     <ol class="list-group list-group-numbered">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                           <div class="ms-2 me-auto">
+                              <div class="fw-bold">Subheading</div>
+                              Content for list item
+                           </div>
+                           <span class="badge bg-primary rounded-pill">14</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                           <div class="ms-2 me-auto">
+                              <div class="fw-bold">Subheading</div>
+                              Content for list item
+                           </div>
+                           <span class="badge bg-primary rounded-pill">14</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                           <div class="ms-2 me-auto">
+                              <div class="fw-bold">Subheading</div>
+                              Content for list item
+                           </div>
+                           <span class="badge bg-primary rounded-pill">14</span>
+                        </li>
+                     </ol>
+
+                     <div class="accordion accordion-flush border-1 my-3" id="accordionFlushExample">
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="flush-headingOne">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                 data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                 aria-controls="flush-collapseOne">
+                                 Accordion Item #1
+                              </button>
+                           </h2>
+                           <div id="flush-collapseOne" class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                 demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                                 body.</div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="flush-headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                 data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                 aria-controls="flush-collapseTwo">
+                                 Accordion Item #2
+                              </button>
+                           </h2>
+                           <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                 demonstrate the <code>.accordion-flush</code> class. This is the second item's
+                                 accordion body. Let's imagine this being filled with some actual content.</div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="flush-headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                 data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                 aria-controls="flush-collapseThree">
+                                 Accordion Item #3
+                              </button>
+                           </h2>
+                           <div id="flush-collapseThree" class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                 demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                                 body. Nothing more exciting happening here in terms of content, but just filling up the
+                                 space to make it look, at least at first glance, a bit more representative of how this
+                                 would look in a real-world application.</div>
+                           </div>
+                        </div>
+                     </div>
+
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- news card section end -->
+
+   <!-- footer -->
+   <footer class="bg-success">
+      <div class="container">
+         <div class="p-4 text-center">
+            <p class="text-white">Copyright by MySite</p>
+         </div>
+      </div>
+   </footer>
+   <!-- footer end -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

@@ -1,0 +1,156 @@
+header {
+   width: 100%;
+   background-color: #fff;
+   z-index: 22;
+   
+   .nav {
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__ul {
+         display: flex;
+         justify-content: space-between;
+         min-width: 440px;
+
+         &--list {
+            text-transform: uppercase;
+            list-style-type: none;
+
+            &-item {
+               text-decoration: none;
+               color: $main-color;
+               font-family: $min-text;
+            }
+
+
+         }
+      }
+
+      &__menu {
+         display: flex;
+         gap: 25px;
+
+         &-btn {
+            list-style-type: none;
+         }
+      }
+
+      .menu {
+         display: none;
+      }
+   }
+}
+
+// 992 
+
+@media only screen and (max-width: 768px) {
+   header {
+      width: 100%;
+      box-shadow: 0px 0px 10px silver;
+      position: fixed;
+      background-color: #fff;
+      top: 0;
+      z-index: 22;
+
+      .nav {
+         height: 80px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+         &__ul {
+            display: none;
+            justify-content: space-between;
+            min-width: 440px;
+
+            &--list {
+               text-transform: uppercase;
+               list-style-type: none;
+
+               &-item {
+                  text-decoration: none;
+                  color: $main-color;
+                  font-family: $min-text;
+               }
+
+
+            }
+         }
+
+         &__menu {
+            display: flex;
+            gap: 25px;
+
+            &-btn {
+               list-style-type: none;
+            }
+         }
+
+
+         .menu {
+            display: inline-block;
+            font-size: 28px;
+         }
+      }
+   }
+
+}
+
+// 576
+
+@media only screen and (max-width: 480px) {
+   header {
+      background-color: #fff;
+      width: 100%;
+      box-shadow: 0px 0px 10px silver;
+      position: fixed;
+      top: 0;
+      z-index: 22;
+
+      .nav {
+         height: 80px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+         &__ul {
+            display: none;
+            justify-content: space-between;
+            min-width: 440px;
+
+            &--list {
+               text-transform: uppercase;
+               list-style-type: none;
+
+               &-item {
+                  text-decoration: none;
+                  color: $main-color;
+                  font-family: $min-text;
+               }
+
+
+            }
+         }
+
+         &__menu {
+            display: none;
+            gap: 25px;
+
+            &-btn {
+               list-style-type: none;
+            }
+         }
+
+
+         .menu {
+            display: inline-block;
+            font-size: 28px;
+         }
+      }
+   }
+
+}
+
+// 375

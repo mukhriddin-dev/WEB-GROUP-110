@@ -90,10 +90,11 @@ header {
 main {
   min-height: 88vh;
   background-color: rgb(231, 231, 231);
+  padding-top: 60px;
 }
 
 .wrapper {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -142,4 +143,23 @@ footer {
   background-color: lime;
   padding: 34px;
   text-align: center;
+}
+
+
+table{
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+   border-collapse: collapse;
+}
+thead{
+   background-color: silver;
+}
+
+tr:hover{
+   background-color: rgb(180, 180, 180);
+}
+
+tr:nth-child(even){
+   background-color:rgb(222, 222, 222);
 }
