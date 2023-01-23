@@ -1,0 +1,81 @@
+-1 . Data type 
+
+1. string -> 
+2. number -> 
+3. boolean -> 
+4. bgiInt -> 
+5. Symbool ->  
+6. Undefined -> 
+7. null -> 
+8. object -> 
+
+-2 . Comparison operator
+
+1. == -> tengmi  qiymatlar?
+2. === -> tenglik "type" va "value" ?
+3. !  -> emas 
+
+
+-3 . appropriation operators
+ 
+ 1. a=a+b -> a+=b; a-=b; a*=b;
+
+ -4 . "use strict" -> 
+
+ -5 . var -> 
+
+
+
+ lesson-3 
+
+
+
+
+var , let , const , (difference)
+
+Object Math
+type conversions
+
+
+Template literal
+Truthy and Falthy
+Conditional operator "if else"
+logical operators (&& and || or )
+Ternary operator
+"switch" statement
+
+
+
+1. 
+// var a = "salom";
+// console.log(a)
+// a = "Hello";
+// console.log(a)
+// var a = "Goodbye";
+
+// // varni qayat elon qilsa bo'ladi va qayta qiymatlasa bo'ladi .
+// console.log(a)
+
+
+// let b = "JavaScript";
+// b = "PHP"; // qayat qiymat tayinlasak bo'ladi
+// // let b="ReactjS" 
+// console.log(b)
+
+
+
+// const c = "Fronted";
+// c = "Backed"; // qayat qiymat tayinlanmaydi
+// //const c = "UX/UI"; // qayat e'lon qilinmaydi
+
+// console.log(c)
+
+// console.log(a);
+
+// {
+//     const a = 35;
+//     console.log(a)
+// }
+
+// console.log(a)
+
