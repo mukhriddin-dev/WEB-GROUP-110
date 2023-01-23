@@ -38,11 +38,17 @@ type conversions
 
 
 Template literal
-Truthy and Falthy
+
 Conditional operator "if else"
+
+
+
+
 logical operators (&& and || or )
+
 Ternary operator
 "switch" statement
+Truthy and Falthy
 
 
 

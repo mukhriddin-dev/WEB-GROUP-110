@@ -21,12 +21,82 @@ let num1 = 9.67;
 // console.log(typeof (str2))
 
 
-let num = 222;
-// num += "";
-// console.log(num)
-let num2 = String(num);
+// let num = 222;
+// // num += "";
+// // console.log(num)
+// let num2 = String(num);
 
-console.log(typeof num2)
+// console.log(typeof num2)
+
+
+//Template literal
+
+
+// let smartphone = 800;
+// let name = "Samsung Galaxy A73";
+
+
+// // let message = name + " ning narxi " + smartphone + "$";
+
+// let message = `${name} ning narxi ${smartphone}$`;
+
+// console.log(message);
+
+
+
+
+
+// consiotional operators
+
+
+if (10 >= 9) {
+
+    console.log("xa")
+
+} else {
+
+    console.log("yo'q")
+
+}
+
+// m-1
+// let num = +prompt('sonni kiriting : ');
+
+// if (num > 0) {
+//     alert("Son musbat")
+// } else {
+//     alert("son manfiy")
+// }
+
+// m-2
+
+// let num2 = +prompt('num2 kiriting : ');
+
+// if (num2 % 2 === 1) {
+//     console.log("toq son")
+// } else {
+//     console.log("juft son")
+// }
+
+
+
+// m-3
+
+let num2 = +prompt('num2 kiriting : ');
+let num3 = +prompt('num3 kiriting : ');
+
+if (num2 % 2 ==0 && num3%2==0) {
+    console.log("juf son")
+} else {
+    console.log("toq son")
+}
+
+
+
+
+
+
+
 
 
 
