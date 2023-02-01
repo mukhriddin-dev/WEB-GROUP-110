@@ -1,0 +1,11 @@
+1. conditional operators 
+ -- if else 
+ -- switch case 
+ -- ternary 
+
+ 2.  logical operators  
+  -- &&  (logical and)
+  -- || (logical or)
+
+
+

@@ -1,0 +1,12 @@
+1. JS vs HTML
+2. Data types
+3. Variables
+4. Conditional operators -> if else , switch case , ternary 
+
+
+5. while , do while , for -> loops
+6. Function , function types 
+   -> function declaration , function expression , arrow function
+
+
+1. 

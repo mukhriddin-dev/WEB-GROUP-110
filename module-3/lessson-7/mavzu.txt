@@ -1,0 +1,70 @@
+Function and function types
+Function arrow func / func expression / func declaration
+function parametrs
+Default parametr
+
+Array simple methods
+
+Array
+
+.push(4);
+.pop();
+.shift();
+.unshift(0);
+.concat('c');
+.join('-');
+.slice(1);
+.indexOf('b');
+.includes('c');
+
+
+
+String methods
+String.length
+String.trim()
+String.toUpperCase();
+String.toLowerCase();
+String.substring(x,y);
+String.search();
+String.trim();
+String.match();
+String.split();
+charAt(n)
+
+
+
+// 1. function declaration
+
+function functionName(arg1,arg2,arg3){
+    // work
+}
+
+functionName(11,12,13)
+
+// 2. function expression 
+
+let functionName = function(arg1,arg2,arg3){
+    // work
+}
+
+
+// 3. arrow function 
+
+const functionName=(arg1,arg2,arg3)=>{
+    //work
+}
+
+
+
+
+@mixin card($w, $h , $bg){
+    width:$w;
+    height:$h;
+    background:$bg;
+}
+
+
+
+card(300px, 340px, #fff)
+
+
