@@ -1,7 +1,4 @@
-Function and function types
-Function arrow func / func expression / func declaration
-function parametrs
-Default parametr
+1. Primative Non primative 
 
 Array simple methods
 
@@ -13,7 +10,8 @@ Array
 .unshift(0);
 .concat('c');
 .join('-');
-.slice(1);
+.slice(index, to index);
+.splice(index, n)
 .indexOf('b');
 .includes('c');
 
@@ -32,39 +30,5 @@ String.split();
 charAt(n)
 
 
-
-// 1. function declaration
-
-function functionName(arg1,arg2,arg3){
-    // work
-}
-
-functionName(11,12,13)
-
-// 2. function expression 
-
-let functionName = function(arg1,arg2,arg3){
-    // work
-}
-
-
-// 3. arrow function 
-
-const functionName=(arg1,arg2,arg3)=>{
-    //work
-}
-
-
-
-
-@mixin card($w, $h , $bg){
-    width:$w;
-    height:$h;
-    background:$bg;
-}
-
-
-
-card(300px, 340px, #fff)
 
 
