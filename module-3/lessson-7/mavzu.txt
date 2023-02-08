@@ -15,8 +15,6 @@ Array
 .indexOf('b');
 .includes('c');
 
-
-
 String methods
 String.length
 String.trim()
