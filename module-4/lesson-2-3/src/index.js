@@ -39,7 +39,7 @@ dynamicOption();
 // console.log(sortProduct);
 
 function cardRender() {
-  products.forEach((e, i, a) => {
+  products?.forEach((e, i, a) => {
     let card = document.createElement("div");
 
     card.setAttribute(

@@ -1,10 +1,9 @@
 let products = [
   {
     id: 1,
-    name: "Iphone 14 pro",
     brand: "Apple",
     img: "./images/iphone14.jpeg",
-    price: 1299,
+  
     isActive: true,
   },
   {
