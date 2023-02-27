@@ -1,0 +1,23 @@
+1. Higher Order Functions 
+2. Function Scope, Block Scope, Global Scope , Local scope
+
+1. forEach 
+2. map 
+3. filter
+4. sort
+5. reduce
+
+
+1. find()
+2. reverse()
+
+
+Optional chaining (?.)
+
+
+
+reviousElementSibling, nextElementSibling, parentNode,
+
+
+
+1. Movies app (Loyihani boshlash)

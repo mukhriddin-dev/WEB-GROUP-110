@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    width: 850px;
+    height: 550px;
+    background-color: #000;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.carousel .carousel__list{
+    transition: all 0.5s ease;
+    display: flex;
+}
+
+.carousel span{
+    font-size: 36px;
+    position: absolute;
+    top:45%;
+    color:#fff;
+    background-color: #0000006a;
+    border-radius: 4px;
+}
+
+.carousel span:active{
+    background-color: #000;
+}
+
+#next{
+    right: 5px;
+}
+
+#prev{
+    left: 5px;
+}
