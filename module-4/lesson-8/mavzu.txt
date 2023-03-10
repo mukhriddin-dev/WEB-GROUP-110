@@ -1,0 +1,20 @@
+localStorage
+
+setItem()
+getItem()
+removeItem()
+clear()
+"storage"
+
+shallow copy vs deep copy
+rest & spread operator
+
+Understanding Javascript 'this' keyword (Context)
+
+CallBack function
+Synchronous and Asynchronous What is the difference between synchronous and asynchronous code in JavaScript ?
+Promise
+Pending
+fullfiled
+rejected
+fetch

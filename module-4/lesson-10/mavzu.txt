@@ -1,0 +1,4 @@
+GET ->  BASE_URL = https://restcountries.com/v2 
+        ALL_COUNTRIES -> /ALL 
+        WITH NAME -> /NAME/${NAME}
+        WITH REGION -> /REGION/${REGION}

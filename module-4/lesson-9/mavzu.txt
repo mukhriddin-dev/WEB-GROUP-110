@@ -1,0 +1,11 @@
+1. PROMISE 
+
+Promise
+Pending
+fullfiled
+rejected
+fetch
+
+2. fetch , methods , async await 
+
+
