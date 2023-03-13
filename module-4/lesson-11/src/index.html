@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CDN play -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>lesson-11</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="main">
+        <div class="container mx-auto">
+          <h1 class="text-center text-green-500 text-3xl bg-green-50 p-4">
+            CRUD APP
+          </h1>
+          <div class="form mt-5">
+            <form
+              action="#"
+              class="flex justify-center gap-3 items-center h-[90px">
+              <label for="title">
+                <!-- <p class="text-green-400 uppercase text-x my-2">Enter task title</p> -->
+                <input
+                  type="text"
+                  id="title"
+                  class="ring-2 w-[400px] h-[45px] ring-green-200 px-4"
+                  placeholder="Enter task title" />
+              </label>
+
+              <label for="date">
+                <!-- <p class="text-green-400 uppercase text-x my-2">Enter task date</p> -->
+                <input
+                  type="date"
+                  id="title"
+                  class="ring-2 w-[400px] h-[45px] ring-green-200 px-4"
+                  placeholder="Enter task title" />
+              </label>
+
+              <button
+                class="bg-green-600 focus:ring-4 text-white font-bold text-center px-3 min-w-[80px] h-[45px] rounded-xl">
+                ADD NEW TASK
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="tables">
+        <div class="container mx-auto p-5">
+          <table class="w-3/4 mx-auto bg-green-100 text-center">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Deadline</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="my-2 bg-green-300 h-[60px]">
+                <td>1</td>
+                <td>Trafalgar site</td>
+                <td>2023.03.23</td>
+                <td>
+                  <button
+                    class="bg-sky-500 focus:ring-4 text-white font-bold text-center px-3 min-w-[80px] h-[45px] rounded-xl">
+                    EDIT
+                  </button>
+                </td>
+                <td>
+                  <button
+                    class="bg-red-600 focus:ring-4 text-white font-bold text-center px-3 min-w-[80px] h-[45px] rounded-xl">
+                    Delete
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+            <tfoot></tfoot>
+          </table>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <!-- utils.js -->
+  <script src="./utils.js"></script>
+  <!-- main script.js -->
+  <script src="./index.js"></script>
+</html>

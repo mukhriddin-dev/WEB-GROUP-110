@@ -1,0 +1,9 @@
+------ CRUD  ------
+
+POST    -> CREATE
+
+GET     -> READ
+
+UPDATE  -> EDIT
+
+DELETE  -> DELETE
