@@ -7,3 +7,5 @@ GET     -> READ
 UPDATE  -> EDIT
 
 DELETE  -> DELETE
+
+npx json-server --watch src/db.json --port 3000

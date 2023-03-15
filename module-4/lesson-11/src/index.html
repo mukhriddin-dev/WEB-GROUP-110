@@ -21,7 +21,8 @@
           <div class="form mt-5">
             <form
               action="#"
-              class="flex justify-center gap-3 items-center h-[90px">
+              class="flex justify-center gap-3 items-center h-[90px"
+              id="add">
               <label for="title">
                 <!-- <p class="text-green-400 uppercase text-x my-2">Enter task title</p> -->
                 <input
@@ -35,16 +36,25 @@
                 <!-- <p class="text-green-400 uppercase text-x my-2">Enter task date</p> -->
                 <input
                   type="date"
-                  id="title"
+                  id="date"
                   class="ring-2 w-[400px] h-[45px] ring-green-200 px-4"
                   placeholder="Enter task title" />
               </label>
 
               <button
+                type="submit"
                 class="bg-green-600 focus:ring-4 text-white font-bold text-center px-3 min-w-[80px] h-[45px] rounded-xl">
                 ADD NEW TASK
               </button>
+
+             
             </form>
+
+             <button
+                id="edit"
+                class="bg-red-200 focus:ring-4 text-white font-bold text-center px-3 min-w-[80px] h-[45px] rounded-xl">
+                EDIT TASK
+              </button>
           </div>
         </div>
       </section>
@@ -61,25 +71,7 @@
                 <th>Delete</th>
               </tr>
             </thead>
-            <tbody>
-              <tr class="my-2 bg-green-300 h-[60px]">
-                <td>1</td>
-                <td>Trafalgar site</td>
-                <td>2023.03.23</td>
-                <td>
-                  <button
-                    class="bg-sky-500 focus:ring-4 text-white font-bold text-center px-3 min-w-[80px] h-[45px] rounded-xl">
-                    EDIT
-                  </button>
-                </td>
-                <td>
-                  <button
-                    class="bg-red-600 focus:ring-4 text-white font-bold text-center px-3 min-w-[80px] h-[45px] rounded-xl">
-                    Delete
-                  </button>
-                </td>
-              </tr>
-            </tbody>
+            <tbody id="task"></tbody>
             <tfoot></tfoot>
           </table>
         </div>
