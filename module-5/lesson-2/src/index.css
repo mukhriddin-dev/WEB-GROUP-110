@@ -1,0 +1,23 @@
+*::after, *::before , * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+main{
+  min-height: calc(100vh - 30px  - 15px );
+  width: 100%;
+  position: relative;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.wrapper{
+  display: flex;
+}

@@ -1,0 +1,18 @@
+.card {
+    font-family: sans-serif;
+    position: relative;
+    cursor: pointer;
+
+
+    &-body {
+        padding: 10px;
+
+
+    }
+
+    &-title {
+        margin: 10px 0;
+    }
+
+
+}
