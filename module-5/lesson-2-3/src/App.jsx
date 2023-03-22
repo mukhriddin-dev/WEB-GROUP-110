@@ -1,53 +1,36 @@
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
-import Home from './pages/Home/Home'
-import Todos from './pages/Todos'
+import { useState } from 'react'
+
+// import Todos from './pages/Todos'
 
 const App = () => {
-
-
-
-  // const obj = {
-  //   name: "Object",
-  //   child: {
-  //     color: {
-  //       type: {
-  //         orange: "400",
-  //         num:[1,2,{ok:"ok"}]
-  //       }
-  //     }
-  //   }
-  // }
   
+  let [number, INCREMENT] = useState(1)
 
-  // const { name } = obj;
-  // const { child: { color: { type: { num } } } } = obj;
+  console.log(number)
 
-
-  // console.log(num)
-
-
-  // console.log(obj.child.color.type.orange)
-  // console.log(orange)
-
-
-
-
-
-
-
-
-
-
-
-
+  const btnStyle = {
+    padding: '6px 12px',
+    background: 'green',
+    margin: '50px auto',
+    display: 'block',
+    color: '#fff'
+  }
 
   return (
     <>
       <Header />
       <main>
-        {/* <Todos name="this is todos app"/> */}
-        <Home/>
+        <h1>{number}</h1>
+        <button
+          style={btnStyle}
+          onClick={() => {
+            INCREMENT(number + 1)
+          }}
+        >
+          INCREMENT
+        </button>
       </main>
       <Footer />
     </>
