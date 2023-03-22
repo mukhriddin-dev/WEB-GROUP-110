@@ -1,6 +1,8 @@
 import './index.scss'
 
-const index = props => {
+const index = ({img, title, description})=> {
+
+  // const { img, title, description } = props;
   
   console.log(props.title)
   console.log(props)
@@ -16,10 +18,10 @@ const index = props => {
 
   return (
     <div className='card' style={cardStyle}>
-      <img src={props.img} alt='img' className='card-img' />
+      <img src={img} alt='img' className='card-img' />
       <div className='card-body'>
-        <h3 className='card-title'>{props.title}</h3>
-        <p className='card-text'>{props.description}</p>
+        <h3 className='card-title'>{title}</h3>
+        <p className='card-text'>{description}</p>
       </div>
     </div>
   )
