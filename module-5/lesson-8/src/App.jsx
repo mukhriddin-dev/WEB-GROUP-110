@@ -1,10 +1,11 @@
 import React from 'react'
+import Dashboard from './pages/Dashboard'
 
 const App = () => {
   return (
-    <div>
-      <h1>Starter Template</h1>
-    </div>
+    <>
+      <Dashboard />
+    </>
   )
 }
 
