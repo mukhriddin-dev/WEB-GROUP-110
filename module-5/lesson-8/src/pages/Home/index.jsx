@@ -29,7 +29,7 @@ const index = () => {
     
     
     if (!load) { 
-       return <h1 className='text-center text-red-500 text-2xl'>LOADING . . .</h1>
+   return <h1 className='text-center text-2xl'>LOADING . . .</h1>
     }
 
 

@@ -2,7 +2,7 @@ import axios from "axios";
 let baseUrl ="https://jsonplaceholder.typicode.com"
 
 const post = {
-    getAllPost: () => {
+    getAllPost : () => {
         return axios.get(`${baseUrl}/posts`)
     }
 }
