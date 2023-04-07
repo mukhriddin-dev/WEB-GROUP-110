@@ -10,8 +10,8 @@ const navlinks = [
     icon: "bx bxs-folder-plus",
   },
   {
-    title: "Home",
-    link: "/home",
+    title: "Extra",
+    link: "/extra",
     icon: "bx bx-home-alt-2",
   },
 

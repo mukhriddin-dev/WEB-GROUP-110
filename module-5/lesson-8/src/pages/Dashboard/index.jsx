@@ -5,7 +5,7 @@ import RouterLinks from '../../router/RouterLinks'
 const index = () => {
   return (
     <>
-      {/*header  */}
+     
       <main className='flex'>
         <Sidebar />
 

@@ -8,6 +8,7 @@ import Button from '../../ui/Button'
 import { ToastContainer, toast } from 'react-toastify'
 
 const index = () => {
+  console.log("Home page render");
   const [data, setData] = useState([])
   const [load, setLoad] = useState(false)
 
@@ -29,6 +30,7 @@ const index = () => {
   }
 
   useEffect(() => {
+    console.log("fetch data")
     getAll()
   }, [])
 
@@ -94,7 +96,7 @@ const index = () => {
           </tr>
         </thead>
         <tbody>
-          {data?.map((item, index) => {
+          {data?.length>0  ? data?.map((item, index) => {
             return (
               <TableRow
                 ind={index}
@@ -103,7 +105,7 @@ const index = () => {
                 delFun={deletePost}
               />
             )
-          })}
+          }): <h1 className='text-center'>NOT FOUND</h1>}
         </tbody>
       </table>
       <ToastContainer position='top-center' autoClose={1000} />

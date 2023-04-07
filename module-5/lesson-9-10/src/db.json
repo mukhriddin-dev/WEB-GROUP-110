@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "title": "lorem",
+      "body": "lorem",
+      "id": 1
+    },
+    {
+      "title": "post number one",
+      "body": "post number one",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "author": "Abduvoris",
+      "text": "text"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

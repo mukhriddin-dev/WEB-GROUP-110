@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import TableRow from '../../ui/TableRow'
 import post from '../../api/post'
-import "./loader.css";
-import Loader from '../../ui/Loader';
+import './loader.css'
+import Loader from '../../ui/Loader'
 
 const index = () => {
+  console.log("Posts page render")
   const [data, setData] = useState([])
   const [load, setLoad] = useState(false)
 
@@ -27,12 +28,11 @@ const index = () => {
   }, [])
 
   if (!load) {
-    return <Loader/>
+    return <Loader />
   }
 
   return (
     <div className='ml-[330px]'>
-    
       <table className='w-full  bg-white p-2 m-4 text-center'>
         <thead>
           <tr>
@@ -41,13 +41,17 @@ const index = () => {
           </tr>
         </thead>
         <tbody>
-          {data?.map((item, index) => {
-            return <TableRow ind={index} data={item} key={index} />
-          })}
+          {data.length > 0 ? (
+            data?.map((item, index) => {
+              return <TableRow ind={index} data={item} key={index} />
+            })
+          ) : (
+            <h1 className='text-center'>NOT FOUND</h1>
+          )}
         </tbody>
       </table>
     </div>
   )
 }
 
-export default index;
+export default index

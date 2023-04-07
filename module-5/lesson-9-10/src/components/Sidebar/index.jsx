@@ -1,8 +1,9 @@
-import React from "react";
+import React, { memo} from "react";
 import navlinks from "../../constans/navlink";
 import { NavLink } from "react-router-dom";
-console.log(navlinks);
+
 const index = () => {
+  console.log("Render Sidebar")
   return (
     <>
       <aside className="w-[338px] fixed bg-white shadow h-screen ">
@@ -30,4 +31,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default memo(index);
