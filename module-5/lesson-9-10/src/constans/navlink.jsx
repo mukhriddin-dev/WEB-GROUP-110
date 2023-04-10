@@ -1,23 +1,23 @@
 const navlinks = [
   {
     title: "Dashboard",
-    link: "/",
+    link: "/dashboard",
     icon: "bx bxs-dashboard",
   },
   {
     title: "Posts",
-    link: "/posts",
+    link: "/dashboard/posts",
     icon: "bx bxs-folder-plus",
   },
   {
     title: "Extra",
-    link: "/extra",
+    link: "/dashboard/extra",
     icon: "bx bx-home-alt-2",
   },
 
   {
     title: "Order",
-    link: "/add",
+    link: "/dashboard/add",
     icon: "bx bxs-folder-plus",
   },
   {
